@@ -29,7 +29,7 @@ namespace Translate_Management_System_Test.Pages
 
         public void PerformLogout_and_control()
         {
-            //drop down aria-expanded = true
+            //Drop down aria-expanded = true
             _driver.FindElement(By.CssSelector("#app-navbar-collapse > ul.nav.navbar-nav.navbar-right > li > a")).Click();
             //Click Logout button
             _driver.FindElement(By.CssSelector("#app-navbar-collapse > ul.nav.navbar-nav.navbar-right > li > ul > li > a")).Click();

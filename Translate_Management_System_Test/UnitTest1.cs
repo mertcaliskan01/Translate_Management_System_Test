@@ -140,8 +140,8 @@ namespace Tests
             Web_Front_End_Page web_Front_End_Page = new Web_Front_End_Page(driver);
             web_Front_End_Page.GoTranslation();
 
-            web_Front_End_Page.Search("Welcome", "approved");///
-            var before_change = web_Front_End_Page.Before_changed("Welcome");/// bu ksýým ilk halii kaydediyor
+            web_Front_End_Page.Search("Welcome", "approved");
+            var before_change = web_Front_End_Page.Before_changed("Welcome");
 
             web_Front_End_Page.Search("Welcome", "approved");
             web_Front_End_Page.Change_Translation("hoþgel", "Save");
@@ -187,8 +187,8 @@ namespace Tests
             Web_Front_End_Page web_Front_End_Page = new Web_Front_End_Page(driver);
             web_Front_End_Page.GoTranslation();
 
-            web_Front_End_Page.Search("Welcome", "approved");///
-            var before_change = web_Front_End_Page.Before_changed("Welcome");/// bu ksýým ilk halii kaydediyor
+            web_Front_End_Page.Search("Welcome", "approved");
+            var before_change = web_Front_End_Page.Before_changed("Welcome");
 
             web_Front_End_Page.Search("Welcome", "approved");
             web_Front_End_Page.Change_Translation("Hoþgeldinizz", "Save");
