@@ -6,7 +6,7 @@ using System.Threading;
 
 namespace Translate_Management_System_Test.Pages
 {
-    class LoginPage
+    class Login_Page
     {
         private IWebDriver _driver;
 
