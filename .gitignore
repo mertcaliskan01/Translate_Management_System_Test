@@ -1,6 +1,5 @@
 Translate_Management_System_Test.sln
 .vs/*
 Translate_Management_System_Test/*
-!Translate_Management_System_Test/UnitTest1.cs
-!Translate_Management_System_Test/SetMethods.cs
+!Translate_Management_System_Test/Translate_Management_System_Test.cs
 !Translate_Management_System_Test/Pages/
